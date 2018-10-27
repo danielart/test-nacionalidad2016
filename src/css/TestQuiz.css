@@ -1,0 +1,115 @@
+.AnswerList-box {
+    margin-left: 15%;
+    width: 70%;
+    padding: 20px 0;
+}
+
+.top-button-bar {
+    padding:15px 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.bottom-button-bar {
+    margin-top: -30px;
+}
+
+.left-button {
+    float: left;
+}
+
+.right-button {
+    float: right;
+}
+
+.test-failed{
+    color: red;
+}
+.test-success{
+    color: darkgreen;
+}
+
+.cardMediaContent{
+    background-color: #2e2e2e;
+    color: white !important;
+    padding: 5px;
+}
+
+.cardTitleContent {
+    background-color: #7f7f7f;
+}
+
+.cardTextContent{
+  font-size: 13pt !important;
+  min-height: 90px;
+}
+
+.sector{
+    height: auto;
+    min-height: 330px;
+    width: 25%;
+    float: left;
+    margin: 4%;
+}
+
+@media screen and (max-width: 450px) {
+  .AnswerList-box {
+      margin-left: 0;
+      width: 100%;
+      padding: 10px 0;
+  }
+  .sector{
+      height: auto;
+      min-height: 100px;
+      width: 90%;
+      margin: 4%;
+  }
+  .cardTextContent{
+      min-height: 0;
+  }
+}
+
+@media screen and (min-width: 451px) and ( max-width: 720px) {
+    .AnswerList-box {
+        margin: 0;
+        width: auto;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .sector{
+        height: auto;
+        min-height: 340px;
+        width: 25%;
+        min-width: 200px;
+        margin: 1%;
+        float: left;
+    }
+
+    .cardTextContent{
+      min-height: 130px;
+    }
+}
+
+@media screen and (min-width: 721px) and ( max-width: 1023px) {
+  .sector{
+      height: auto;
+      min-height: 330px;
+      width: 30%;
+      float: left;
+      margin: 1%;
+  }
+
+  .cardTextContent{
+    min-height: 130px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sector{
+      height: auto;
+      min-height: 330px;
+      width: 25%;
+      float: left;
+      margin: 4%;
+  }
+}

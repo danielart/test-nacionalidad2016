@@ -1,0 +1,38 @@
+.Question-box{
+  padding:20px;
+  min-height:300px;
+}
+
+.Question-text {
+  padding-bottom:10px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 14pt;
+  text-align: left;
+  min-height:80px;
+}
+
+.correctAnswer{
+  color: green;
+}
+.wrongAnswer{
+  color:red;
+}
+
+.summaryQuestionText{
+  font-weight: bold;
+}
+
+@media screen and (max-width: 720px) {
+  .Question-box{
+    font-size: 12pt;
+    padding:5px;
+    width: 100%;
+  }
+  .Question-text {
+    font-size: 12pt;
+  }
+
+  .scrollingSumary{
+
+  }
+}

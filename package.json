@@ -1,0 +1,29 @@
+{
+  "home": "test-nacionalidad.atspace.eu",
+  "name": "test-nacionalidad",
+  "version": "0.0.2",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "enzyme": "^2.4.1",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.1.1",
+    "mocha": "^3.0.2",
+    "react-scripts": "0.1.0"
+  },
+  "dependencies": {
+    "material-ui": "^0.15.2",
+    "re-base": "^1.5.1",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.1.2",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  }
+}

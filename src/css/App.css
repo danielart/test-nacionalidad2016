@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  width: 90%;
+  margin-left:5%;
+  padding: 20px 0;
+  min-height: 95%;
+}
+
+.App-intro {
+  overflow: hidden;
+  font-size: large;
+  margin-top: 0;
+  padding: 20px;
+  background-color: white;
+
+}
+.customContentStyle{}
+
+@media screen  and ( max-width: 720px) {
+  .App {
+    width: 100%;
+    margin:0 ;
+  }
+
+  .App-intro {
+    padding: 10px !important;
+    width: auto;
+    margin:auto;
+  }
+  .customContentStyle {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom:  0;
+  }
+
+  .customContentStyle div{
+    width: auto !important;
+    }
+
+  .App-result{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .App {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .customContentStyle{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.App-logo {
+  animation: spin infinite 5s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
