@@ -1,7 +1,7 @@
 # Test-nacionalidad
 Esta es una aplicación para practicar las preguntas del test de nacionalidad española, desarrollada a finales de 2016-2017. Utilicé este proyecto para aprender react, y ahora lo recupero a modo portFolio.
 
-Live Demo: <a href="http://test-nacionalidad.atspace.eu/" target:"_blank"> Test-nacionalidad.atspace.eu </a>
+Live Demo: [test-nacionalidad](http://test-nacionalidad.atspace.eu)
 
 ## Instalación
 **npm i**
